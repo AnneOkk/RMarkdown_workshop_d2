@@ -875,9 +875,9 @@ class: middle, inverse, center
 
 
 ```{r echo = FALSE, out.width="2000px"}
-list_png <- c(here::here("slides/img/blogdown-lifecycle-01.png"),
-              here::here("slides/img/blogdown-lifecycle-02.png"),
-              here::here("slides/img/blogdown-lifecycle-03.png"))
+list_png <- c(here::here("img/blogdown-lifecycle-01.png"),
+              here::here("img/blogdown-lifecycle-02.png"),
+              here::here("img/blogdown-lifecycle-03.png"))
 list_png %>% 
   map(image_read) %>% # reads each path file
   image_join() %>% # joins image
@@ -916,9 +916,9 @@ class: middle, inverse, center
 
 
 ```{r echo = FALSE, out.width="2000px"}
-list_png <- c(here::here("slides/img/blogdown-lifecycle-04.png"),
-              here::here("slides/img/blogdown-lifecycle-05.png"),
-              here::here("slides/img/blogdown-lifecycle-06.png"))
+list_png <- c(here::here("img/blogdown-lifecycle-04.png"),
+              here::here("img/blogdown-lifecycle-05.png"),
+              here::here("img/blogdown-lifecycle-06.png"))
 list_png %>% 
   map(image_read) %>% # reads each path file
   image_join() %>% # joins image
